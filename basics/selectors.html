@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color:#414141;
+        }
+       /* h1{
+        background-color:orange;
+       } */
+        .bg-orange{
+            background-color:orange;
+        }
+        #bg-green{                                       /*  id get priority over class */
+            background-color: green;
+        } 
+
+        a[target="_blank"]{
+            color:#f515b2;
+            padding:10px;
+        }
+        h1,h2,h3{
+            background-color:#72f53f;
+        }
+        ul li {
+            background-color:#eff315;
+        }
+
+        header > a{
+            color:#f70a0a;
+            padding:10px;
+        }
+        img + p{
+            color:#f09bdd;
+            padding:10px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eaque!</h1>
+    <h2 class="bg-orange">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+    <h3 id="bg-green" class="bg-orange">Lorem ipsum dolor sit amet.</h3>
+    <a target="_parent" href="https://example.com">skills</a>
+
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+    <ul>
+        <li>one</li>
+        <li> two</li>
+        <li>three</li>
+    </ul>
+    <li>four</li>
+
+    <header>
+        <a href="#">Google</a>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <a href="#">Logo</a>
+            </ul>
+        </nav>
+        <a href="#">Bing</a>
+    </header>
+      
+      <div>
+        <img src="" alt="">
+        <p>change me</p>
+        <p>change me three</p>
+        <div>
+            <p>Change me too</p>
+        </div>
+      </div>
+ 
+      <a target="_parent" href="https://example.com">skills</a>
+      <br/>
+      <a target="_blank" href="https://google.com">Google</a>
+
+</body>
+</html>
