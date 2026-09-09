@@ -89,6 +89,7 @@ body{
     padding: 12px 30px;
     border-radius: 30px;
     cursor: pointer;
+    transform: skewX(-20deg);
     font-weight: bold;
     font-size: 14px;
 }
@@ -132,8 +133,224 @@ body{
 
 #main-header .right img{
     width: 90%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     border-radius: 10px;
    margin-left: 5cm;
+}
+
+.band{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    transform: rotate(-5deg);
+    border: 1px solid #614c4c ;
+    font-size: 30px;
+    font-weight: 900;
+    background:#614c4c ;
+    box-shadow: 0 50px 32px 0 ;
+    backdrop-filter:blur(4px);
+
+}
+
+.band img {
+    width: 25px;
+    height: auto;
+}
+
+.choose-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.choose-section-title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.section-description{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.choose-section .image-carousel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.image-carousel img{
+    width: 500px;
+    height: 300px;
+}
+.image-carousel .center-img {
+    width: 700px;
+    height: 400px;
+}
+
+.discover_section {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.discover-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #614c4c ;
+    border-radius: 7px;
+    background: #e92929;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0;
+
+}
+
+.discover-card img {
+    margin-top: -120px;
+    width: 50%;
+    align-self: self-start;
+}
+.discover-card-details .big-text {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+.discover-card-details-btn{
+    width: fit-content;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    transform: skewX(-20deg);
+}
+
+.demo-card-section{
+    width: 70px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center; 
+   flex-direction: column;
+}
+
+.demo-cards {
+    margin: 50px 0;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;  
+}
+.demo-card{
+    width: 300PX;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid #ffffff23;
+    background: #e92929;
+    box-shadow: 0 8px 32px 0  #1a1a1a;
+    backdrop-filter: blur(4px);
+}
+
+.demo-card > img{
+    width: 100%;
+}
+.demo-prof-details > img{
+ width: 40px;
+ height: 40px;
+}
+.demo-card > h5{
+    margin: 0;
+    align-self: self-start;
+    font-size: 20px;
+}
+
+.demo-card > .demo-prof-details {
+    display: flex;
+    gap: 7px;
+    align-self: self-start;
+
+}
+
+.demo-card h5,
+.demo-card p {
+    margin: 0%;
+
+}
+
+.demo-car-btn{
+    cursor: pointer;
+    padding: 10px 0;
+    width: 90%;
+    text-align: center;
+    transform: skewX(-20deg);
+    border: 1px solid #1a1a1a ;
+    background: #1a1a1a;
+    background: linear-gradient(#1a1a1a);
+    color: #ffffff;
+}
+
+footer > img {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: -1 ;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #ffffff;
+    padding: 100px 10% 0 10%;
+    position: relative;
+}
+
+.footer-container .brands {
+    display: flex;
+    gap: 50px;
+
+}
+.footer-container > img {
+    height: 20px;
+}
+
+.logo-with-name{
+    width: 150px;
+    height: 40px;
+} 
+
+.footer-container .about-and-links {
+    display: flex;
+    justify-content: center;
+}
+.footer-container .about-and-links > div {
+     width: 22px;
+}
+
+.footer-container .about-and-links  ul {
+    display: flex; 
+    flex-direction: column;
+    gap: 22px;
+    padding: 0%;
+    list-style: none;
+    
+}
+
+.footer-container h4 {
+    margin: 40%;
+    font-size: 20px;
+    font-weight: 700;
+
 }
