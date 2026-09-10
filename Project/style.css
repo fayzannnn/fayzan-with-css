@@ -157,6 +157,24 @@ body{
     backdrop-filter:blur(4px);
 
 }
+.choose-band{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    transform: rotate(-5deg);
+    border: 1px solid #614c4c ;
+    font-size: 30px;
+    font-weight: 900;
+    background:#614c4c ;
+    box-shadow: 0 50px 32px 0 ;
+    backdrop-filter:blur(4px);
+
+}
 
 .band img {
     width: 25px;
